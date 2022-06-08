@@ -1,0 +1,331 @@
+<html lang="en">
+  <!-- 
+  Name     : 🆉🅰🅲🅺🆈 🆃🆁🅸🅲🅺🅴🆁 
+  Youtube  : https://youtube.com/channel/UCzL-chxGyjMhrkRPU8dGfMQ
+  Facebook : https://www.facebook.com/zacky.edan00! 
+  -->
+ <head> 
+  <meta charset="utf-8"> 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <!-- Icons Title CSS--> 
+  <title>ZMOD STORE~TOP UP GAME</title> 
+  <link rel="icon" href="icon.png" type="image/png" sizes="16x16">
+  <!-- Bootstrap core CSS--> 
+  <link href="https://zmod-store.github.io/css/bootstrap.min.css" rel="stylesheet"> 
+  <!--Data Tables --> 
+  <link href="https://zmod-store.github.io/css/dataTables.bootstrap4.min.css" rel="stylesheet" type="text/css">
+  <link href="https://zmod-store.github.io/css/buttons.bootstrap4.min.css" rel="stylesheet" type="text/css">
+  <!-- animate CSS--> 
+  <link href="https://zmod-store.github.io/css/animate.css" rel="stylesheet" type="text/css"> 
+  <!-- Horizontal menu CSS--> 
+  <link href="https://zmod-store.github.io/css/horizontal-menu.css" rel="stylesheet"> 
+  <!-- Custom Style--> 
+  <link href="https://zmod-store.github.io/css/app-style.css" rel="stylesheet"> 
+  <link href="https://zmod-store.github.io/css/style-main.css" rel="stylesheet"> 
+  <!-- Custom Style--> 
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js">
+    </script>
+	<style type="text/css">
+      strong{
+        font-weight: bold;
+        font-size: 20px;
+        color: purple;
+        text-decoration: underline;
+      }
+      .error { color: red; }
+      .pilih{
+        width: 145px;
+        text-align: center;
+        color: #ffffff;
+        background-color: #1f2a36;
+        border: 2px solid #627283;
+        padding: 5px;
+        font-weight: bold;
+        border-radius: 5px;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 15px;
+        font-family: Monospace;
+      }
+      form{
+        width: 600px;
+        margin: auto;
+      }
+      .satset{
+        width: 290px;
+        text-align: center;
+        color: #ffffff;
+        background-color: #1f2a36;
+        border: 2px solid #627283;
+        padding: 5px;
+        font-weight: bold;
+        border-radius: 5px;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 15px;
+        font-family: Monospace;
+      }
+      .opayment{
+        width: 290px;
+        text-align: left;
+        color: #ffffff;
+        background-color: #1f2a36;
+        border: 2px solid #627283;
+        padding: 5px;
+        font-weight: bold;
+        border-radius: 5px;
+        cursor: pointer;
+        display: inline-block;
+        font-size: 15px;
+        font-family: Monospace;
+      }
+
+   .upper { text-transform: uppercase; }
+   .lower { text-transform: lowercase; }
+   .cap   {
+     text-transform: capitalize;
+     font-family: Trebuchet;
+   }
+   .small { font-variant:   small-caps; }
+    </style>
+	<script type="text/javascript">
+      $(document).ready(function() {
+        $('.error').hide();
+        $('.pilih').click(function(event){
+          var total=0;
+          var hitung=$('input:checked').length;
+          if(hitung==0)
+          {
+            $('p.tampilHasil').hide();
+            $('.error').show();
+          }
+          else
+          {
+            $('.error').hide();
+            $('p.tampilHasil').show();
+            $('p.tampilHasil').html('<center><b><font size="10" color="#ffffff">Rp </font><font size="10" color="#2fff26">'+$('input:checked').attr("harga")+'</font>');
+          }
+          event.preventDefault();
+        });
+      });
+      
+    </script>
+  </head>
+  <body>
+       <!--End topbar header--> 
+   <div class="container pt-4 pb-4"> 
+    <div class="row"> 
+     <div class="col-12"> 
+      <ul class="nav nav-tabs" id="myTab" role="tablist"> 
+       <li class="nav-item" role="presentation"> <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Top Up Game</a> </li> 
+       <li class="nav-item" role="presentation"> <a class="nav-link" id="profile-tab" data-toggle="tab" href="home.html" role="tab" aria-controls="profile" aria-selected="false">ZMOD STORE</a> </li> 
+       <li class="nav-item" role="presentation">
+              <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Bantuan ?</a>
+            </li>
+      </ul> 
+     </div> 
+    </div> 
+   </div> 
+    <div class="container"> 
+     <div class="row"> 
+      <div class="col-sm-9"> 
+       <div class="text-center pt-3 pb-2"> 
+        <img src="https://zmod-store.github.io/img/492x0w.webp" class="mb-3" style="display: block; margin: 0 auto; border-radius: 10px !important;" width="120px" height="120px"> 
+        <h5><b><font face="Monospace">Top Up Mobile Legends</font></b></h5> 
+       </div> 
+       <div class="section"><hr>
+         <div class="col-15 mt-2">
+        <ol> 
+         <li>Masukkan <b>ID (SERVER) </b></li>
+             <li>Pilih <b>Nominal </b>Diamond </li>
+             <li>Pilih <b>Metode Pembayaran</b> </li>
+             <li>Tulis <b>Email Aktif</b> yg benar! </li>
+             <li>Klik <b>Beli </b>&amp; lakukan Pembayaran </li>
+             <li><b>Tunggu 1 Menit</b> diamond masuk <br>otomatis ke akun Anda.</li>
+            </ol>
+            <p style="text-align: center; "><font size="3" color="#ff9c00"><b>Top Up Tidak Buka 24 Jam</b></font></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>
+            <p></p>  
+            <hr>
+            </div>
+            </div>
+            </div> 
+      <div class="col-sm-9"> 
+       <div class="pb-3"> 
+        <div class="section"> 
+         <div class="card-body"> 
+          <div class="text-white text-center position-absolute circle-primary">
+           1
+          </div> 
+          <h5 style="margin-left: 45px; margin-top: 5px;">Input Data Tujuan</h5> 
+          <div class="form-row pt-3"> 
+           <div class="col"> 
+            <input type="number" name="userID" id="userID" class="form-control" placeholder="Masukkan ID"> 
+           </div> 
+           <div class="col"> 
+            <input type="number" name="zone_id" id="zoneID" class="form-control" placeholder="Masukkan Server"> 
+           </div> 
+           <p class="col-12 mt-2" style="font-size: 10px">Untuk mengetahui User ID Anda, silahkan klik menu profile dibagian kiri atas pada menu utama game. User ID akan terlihat dibagian bawah Nama karakter game Anda. Silahkan masukan User ID dan Server ID Anda untuk menyelesaikan transaksi. <b>Contoh: 12345678(1234)</b>.</p> 
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+       <div class="pb-3"> 
+        <div class="section"> 
+         <div class="card-body"> 
+          <div class="text-white text-center position-absolute circle-primary">
+           2
+          </div> 
+          <h5 style="margin-left: 45px; margin-top: 5px;">Pilih Nominal Diamond</h5> 
+          <div class="row pt-3 pl-2 pr-2 mb-2"> 
+           <div class="col-sm-4 col-6"> 
+            <input required type="radio" id="layanan_1" class="radio-nominale" name="produkID" harga="11.000" nominal="42 Diamonds"> 
+            <label for="layanan_1" class="cap">42 Diamonds<br>(38+Bonus 4)<br>Rp11.000</label> 
+           </div> 
+           <div class="col-sm-4 col-6"> 
+            <input required type="radio" id="layanan_2" class="radio-nominale" name="produkID" harga="15.000" nominal="56 Diamonds"> 
+            <label for="layanan_2" class="cap">56 Diamonds<br>(51+Bonus 5)<br>Rp15.000</label> 
+           </div> 
+           <div class="col-sm-4 col-6"> 
+            <input required type="radio" id="layanan_3" class="radio-nominale" name="produkID" harga="18.500" nominal="70 Diamonds"> 
+            <label class="cap" for="layanan_3">70 Diamonds<br>(64+Bonus 6)<br>Rp18.500</label> 
+           </div> 
+           <div class="col-sm-4 col-6"> 
+            <input required type="radio" id="layanan_4" class="radio-nominale" name="produkID" harga="21.000" nominal="86 Diamonds"> 
+            <label for="layanan_4" class="cap">86 Diamonds<br>(78+Bonus 8)<br>Rp21.000</label> 
+           </div> 
+           <div class="col-sm-4 col-6"> 
+            <input required type="radio" id="layanan_5" class="radio-nominale" name="produkID" harga="28.000" nominal="114 Diamonds"> 
+            <label for="layanan_5" class="cap">114 Diamonds<br>(104+Bonus 10) Rp28.000</label> 
+           </div> 
+           <div class="col-sm-4 col-6"> 
+            <input required type="radio" id="layanan_6" class="radio-nominale" name="produkID" harga="35.000" nominal="140 Diamonds"> 
+            <label for="layanan_6" class="cap">140 Diamonds<br>(127+Bonus 13) Rp35.000</label> 
+           </div> 
+           <div class="col-sm-4 col-6"> 
+            <input required type="radio" id="layanan_7" class="radio-nominale" name="produkID" harga="43.000" nominal="172 Diamonds"> 
+            <label for="layanan_7" class="cap">172 Diamonds<br>(156+Bonus 16) Rp43.000</label> 
+           </div>
+           <div class="col-sm-4 col-6"> 
+            <input required type="radio" id="layanan_8" class="radio-nominale" name="produkID" harga="64.000" nominal="257 Diamonds"> 
+            <label for="layanan_8" class="cap">257 Diamonds<br>(234+Bonus 23) Rp64.000</label> 
+           </div> 
+           <div class="col-sm-4 col-6"> 
+            <input required type="radio" id="layanan_9" class="radio-nominale" name="produkID" harga="69.000" nominal="285 Diamonds"> 
+            <label for="layanan_9" class="cap">285 Diamonds<br>(260+Bonus 25) Rp69.000</label> 
+           </div> 
+           <div class="col-sm-4 col-6"> 
+            <input required type="radio" id="layanan_10" class="radio-nominale" name="produkID" harga="83.000" nominal="344 Diamonds"> 
+            <label for="layanan_10" class="cap">344 Diamonds<br>(312+Bonus 32) Rp83.000</label> 
+           </div> 
+           <div class="col-sm-4 col-6"> 
+            <input required type="radio" id="layanan_11" class="radio-nominale" name="produkID" harga="91.000" nominal="372 Diamonds"> 
+            <label for="layanan_11" class="cap">372 Diamonds<br>(338+Bonus 34) Rp91.000</label> 
+           </div> 
+           <div class="col-sm-4 col-6"> 
+            <input required type="radio" id="layanan_12" class="radio-nominale" name="produkID" harga="105.000" nominal="429 Diamonds"> 
+            <label for="layanan_12" class="cap">429 Diamonds<br>(390+Bonus 39) Rp105.000</label> 
+           </div> 
+           <div class="col-sm-4 col-6"> 
+            <input required type="radio" id="layanan_13" class="radio-nominale" name="produkID" harga="125.000" nominal="514 Diamonds"> 
+            <label for="layanan_13" class="cap">514 Diamonds<br>(468+Bonus 46) Rp125.000</label> 
+           </div> 
+           <div class="col-sm-4 col-6"> 
+            <input required type="radio" id="layanan_14" class="radio-nominale" name="produkID" harga="145.000" nominal="600 Diamonds"> 
+            <label for="layanan_14" class="cap">600 Diamonds<br>(546+Bonus 54) Rp145.000</label> 
+           </div> 
+        </div>
+        </div>
+        </div>
+        </div><!--
+       <div class="pb-3"> 
+        <div class="section"> 
+         <div class="card-body"> 
+          <center
+          ><h5>Informasi Harga</h5></center>
+                <center><font face="Monospace" size="5" class="error">Pilih Nominal Layanan!</font></center>
+                <p class="tampilHasil"></p>
+                <center><button class="pilih" type="send" value="Pilih">TAMPILKAN</button></center>
+          <div class="row pt-3 pl-2 pr-2 mb-2" id="result"> 
+          <p class="col-12 mt-2" style="font-size: 10px">Setiap <b>Memilih/Mengganti </b>Nominal Layanan Harap klik Tombol <b>TAMPILKAN.</b>Karena Informasi Tidak Berubah Secara Otomatis!</p>
+          </div> 
+         </div> 
+        </div> 
+       </div> -->
+       <div class="pb-3"> 
+        <div class="section"> 
+         <div class="card-body"> 
+          <div class="text-white text-center position-absolute circle-primary">
+           3
+          </div> 
+          <h5 style="margin-left: 45px; margin-top: 5px;">Pilih Pembayaran</h5> <br>
+          <center><select class="opayment" id="payment"><option value="Pilih Methodnya Kontol" selected disabled>- Pilih Methode Pembayaran -</option></center>
+          <option value="BNI">BNI</option>
+          <option value="BRI">BRI</option>
+          <option value="MANDIRI">Mandiri</option>
+          <option value="PERMATA">Permata</option>
+          <option value="OVO-P">OVO Premium</option>
+          <option value="DANA-P">DANA Premium</option>
+          <option value="QRIZ">QRIS All Payment (Fee 0.7%)</option>
+          </select></center>
+          <div class="row pt-3 pl-2 pr-2 mb-2" id="result"> 
+          <p class="col-12 mt-2" style="font-size: 10px">Kamu bisa gunakan pembayaran <b>QRIS</b> jika kamu tidak memiliki <b>Bank</b> atau <b>E-Money Premium</b>. Pembayaran via <b>Bank </b>Kami Menggunakan <b>Vritual Account.</b></p>
+          </div> 
+         </div> 
+        </div> 
+       </div> 
+              <div class="pb-3"> 
+        <div class="section"> 
+         <div class="card-body"> 
+          <div class="text-white text-center position-absolute circle-primary">
+           4
+          </div> 
+          <h5 style="margin-left: 45px; margin-top: 5px;">Konfirmasi Pesanan</h5> <br>
+           <div class="col"> 
+            <input type="email" name="email" id="email" class="form-control" placeholder="Masukkan Email Kamu"> 
+           </div> </center><br>
+                <center><button class="satset" type="submit" onclick="gotowhatsapp()" value="submit
+                ">Beli Sekarang</button></center>
+          <div class="row pt-3 pl-2 pr-2 mb-2" id="result"> 
+          <p class="col-12 mt-2" style="font-size: 10px">Klik <b>Beli Sekarang </b>Anda Akan Di Arahkan Ke <b>WhatsApp</b> Dan Kirimkan Datanya:)</p>
+          </div> 
+         </div> 
+        </div> 
+      </div>
+<script>
+function gotowhatsapp() {
+    var uid = document.getElementById("userID").value;
+    var serverid = document.getElementById("zoneID").value;
+    var harga = $('input:checked').attr("harga")
+    var nominal = $('input:checked').attr("nominal")
+    var payment = document.getElementById("payment").value;
+    var email = document.getElementById("email").value;
+
+    var url = "https://wa.me/6281330215311?text=" 
+    + "╔═════════════╗%0a║🇮🇩    - ORDER -   🇮🇩  》%0a╚═════════════╝ %0a*💎DIAMOND MOBILE LEGENDS💎*"+ "%0a%0a"
+    + "%0a          *🔴DATA TUJUAN🔴*%0a╭◖❄❈-------------------------❈❄◗╮%0a"
+    + " | User ID    : *" + uid + "*%0a"
+    + " | Zone ID   : *" + serverid + "*%0a╰◖❄❈-------------------------❈❄◗╯%0a"
+    + "%0a  *🔴NOMINAL DAN HARGA🔴*%0a╭◖❄❈-------------------------❈❄◗╮%0a"
+    + " | Nominal  : *" + nominal + "*%0a"
+    + " | Harga      : *" + harga  + "*%0a╰◖❄❈-------------------------❈❄◗╯%0a"
+    + "%0a*🔴METHODE PEMBAYARAN🔴*%0a╭◖❄❈-------------------------❈❄◗╮%0a"
+    + " | Via   : *" + payment  + "*%0a╰◖❄❈-------------------------❈❄◗╯%0a"
+    + "%0a          *🔴EMAIL ANDA🔴*%0a╭◖❄❈-------------------------❈❄◗╮%0a"
+    + " | Email  : *" + email  + "*%0a╰◖❄❈-------------------------❈❄◗╯%0a"
+
+    window.open(url, '_blank').focus();
+}
+</script>
+  </body>
+</html
